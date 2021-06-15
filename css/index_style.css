@@ -1,0 +1,489 @@
+body
+{
+    overflow-x: hidden;
+}
+#home h1
+{
+    font-size:3rem;
+    color:#fff;
+}
+#home p
+{
+    color:lightgray !important;
+    font-weight: 500;
+    font-size: 1rem;
+}
+#home h1::after
+{
+    content: " TEMPLATE";
+    animation: rewrite 5s 1s normal infinite;
+}
+@keyframes rewrite
+{
+    0%{content:" SERVICES";opacity: 1;}
+    50%{content:" SOLUTIONS";opacity: 1;}
+    100%{content:" TEMPLATE";opacity: 1;}
+}
+#home button
+{
+    background-color: #14bf98;
+    border:1px solid #14bf98;
+    font-size:1rem;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    font-weight: 500;
+    
+}
+#home button:hover
+{
+    background-color: transparent;
+    color:#14bf98;
+}
+#home
+{
+    background-image: url(../images/about.jpg);
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+
+}
+#home .homeContent
+{
+    background-color: rgba(0,0,0,0.5);
+}
+/*about*/
+#about h3
+{
+    font-weight: 500;
+    font-size: 0.8125rem;
+    color:#1f1f1f !important;
+    line-height: 1.0625;
+
+}
+#about p
+{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2.25rem;
+    color:#787878 !important;
+}
+#about button
+{
+    border-color: #dedede !important;
+    transition: 0.7s;
+    padding: 1rem 2.5rem;
+}
+#about button:hover
+{
+    background-color: black !important;
+    color: white !important;
+}
+#about
+{
+    border: 1px solid #dedede;
+}
+
+.typewriter:before{
+    content:"Apps";
+    display:inline-block;
+    overflow: hidden;
+    font-size: 1em;
+    width:5rem;
+    white-space: nowrap;
+    margin-top: auto;
+    color:#00C3DA;
+    }
+    
+    .animated:before{
+      animation:typewriter 5s 0.5s infinite alternate;
+    
+    }
+    
+    
+
+    
+    
+    @keyframes typewriter{
+        0%{content:"a"}
+        2%{content:"ap"}
+        4%{content:"app"}
+        6%{content:"apps"}
+        8%{content:"apps"}
+        10%{content:"apps"}
+        12%{content:"app"}
+        14%{content:"ap"}
+        16%{content:"a"}
+        18%{content:""}
+        20%{content:"W"}
+        22%{content:"We"}
+        24%{content:"Web"}
+        26%{content:"Webs"}
+        28%{content:"Websi"}
+        30%{content:"Websit"}
+        32%{content:"Website"}
+        34%{content:"Websites"}
+        36%{content:"Websites"}
+        38%{content:"Websites"}
+        40%{content:"Website"}
+        42%{content:"Websit"}
+        44%{content:"Websi"}
+        46%{content:"Webs"}
+        48%{content:"Web"}
+        50%{content:"We"}
+        52%{content:"W"}
+        54%{content:""}
+        56%{content:"s"}
+        58%{content:"so"}
+        60%{content:"sof"}
+        62%{content:"soft"}
+        64%{content:"softw"}
+        66%{content:"softwa"}
+        68%{content:"softwar"}
+        70%{content:"software"}
+        72%{content:"softwares"}
+        74%{content:"softwares"}
+        76%{content:"softwares"}
+        78%{content:"software"}
+        80%{content:"softwar"}
+        82%{content:"softwa"}
+        84%{content:"softw"}
+        86%{content:"soft"}
+        88%{content:"sof"}
+        90%{content:"so"}
+        92%{content:"s"}
+        94%{content:""}
+    }
+.Title span
+{
+    font-size: 4rem;
+    font-weight: 900;
+    z-index: 0;
+    bottom: -50%;
+    left:49%;
+    opacity: 0.06;
+    color:rgb(61, 58, 58);
+    text-align: center;
+} 
+
+.navigation .nav_icons a:hover .outer,
+.navigation .nav_icons a:hover .inner
+{
+    transition: 0.2s;
+}
+.navigation .nav_icons a .outer
+{
+    color: #14bf98 !important;
+}
+.navigation .nav_icons a:hover .outer
+{
+    color:white !important;
+}
+.navigation .nav_icons a:hover .inner
+{
+    color:#14bf98 !important;
+}
+.navigation ul li a
+{
+    color:white !important;
+    transition: 0.3s;
+    font-weight: 600;
+    float: left;
+}
+.navigation ul .active a
+{
+    color: #14bf98 !important;
+}
+.navigation ul li:hover a
+{
+    color:#14bf98 !important;
+}
+.navigation .navbar
+{
+    width: 100%;
+    background-color: transparent !important;
+    padding-top: 1rem;
+    position: absolute;
+    z-index: 9999;
+}
+.navigation .navbar .navbar-brand img
+{
+    width:7rem;
+}
+
+.title
+{
+    color:#14bf98 !important;
+
+}
+#intro .imgContainer img
+{
+    transition: 0.2s;
+}
+#intro .imgContainer img:hover
+{
+    transform: scale(1.2);
+    
+}
+
+.team h2 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49px;
+    letter-spacing: -1;
+    color: #1f1f1f;
+    position: relative;
+}
+.team h2::before {
+    content: "C";
+    color: #e5e5e5;
+    position: absolute;
+    font-size: 78px;
+    top: -25%;
+    left: 47.5%;
+    z-index: -1;
+}
+.team h4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #787878;
+}
+.team .carrier {
+    position: relative;
+    overflow: hidden;
+}
+.team .carrier .img-caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 195, 218, 0.9);
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    color: white !important;
+}
+.team .carrier:hover .img-caption {
+    opacity: 1;
+    animation: move 1s;
+    transition: animation 1s ease-in-out;
+}
+@keyframes move {
+    from{top:10%;}
+    to{top:0;}
+}
+.team a {
+    font-size: 16px;
+    color: white;
+}
+.team a:hover {
+    text-shadow: 0 0 5px white;
+}
+.team h5 {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+}
+.team span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+.serviceContainer
+{
+    border:0.5px solid #5c5c5c
+}
+#services
+{
+    background-color: rgb(230, 225, 225);
+}
+#services .content p,#services .content ul li
+{
+    color: rgb(104, 95, 95);
+}
+#services .content .secondP
+{
+    font-size: 1.1rem
+}
+#services .content .but
+{
+    transform: translateY(5%);
+    z-index: 1;
+    transition: 0.1s;
+    width: 100%;
+   
+}
+#services .content button:hover
+{
+    background-color: white !important;
+    border:1px solid #14bf98;
+    color: #14bf98;
+}
+
+#call
+{
+    background-color: #153e52;
+}
+#call .label-control
+{
+    position: absolute;
+    color: white;
+    top:0.7rem;
+    left: 1rem;
+}
+#call .form-control
+{
+    height: 50px;
+    padding:0 1rem;
+    width:90%;
+    background-color: #2a5d77 !important;
+    border-color: #39728f !important;
+    color: white !important;
+}
+#call .form-control:focus,#call .form-control:hover
+{
+    border-color: white !important;
+}
+#call button
+{
+    background-color: #14bf98 !important;
+    width: 90%;
+    height: 50px;
+    font-size: 1.45rem;
+    border:1px solid #14bf98;
+    border-radius: 0.25rem;
+    transition: all 0.2s;
+    
+}
+#call button:hover
+{
+    background-color: transparent !important;
+}
+
+/* Pricing */
+
+.pricing {
+    background-color: #f7f7f7;
+}
+.pricing h2 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49px;
+    color: #1f1f1f;
+    top: 26%;
+    left: 34%;
+}
+.pricing h3 {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 49px;
+    color: #e5e5e5;
+}
+.pricing h4 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #787878;
+}
+.pricing .pricing-tb {
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+}
+.pricing .special {
+    transform: scale(1.08);
+}
+.pricing h6 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #1f1f1f;
+}
+.pricing h5 {
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 72px;
+    color: #1f1f1f;
+    position: relative;
+}
+.pricing span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1f1f1f;
+    position: absolute;
+    top: -8%;
+    left: -2%;
+}
+.pricing .special h5, .pricing .special span {
+    color: #00c3da;
+}
+.pricing ul {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #787878;
+}
+.pricing button {
+    background-color: #00c3da;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+}
+.pricing button:hover {
+    background-color: #00d5ee;
+    color: white;
+}
+.pricing .bdg {
+    position: static;
+    top: 0;
+    right: 0;
+    background-color: #00c3da;
+    color: white !important;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 14px;
+}
+
+/*media*/
+@media screen and (max-width: 768px) { 
+    .navigation .navbar{
+        padding : 1rem 3rem !important;
+        position: fixed;
+    }
+
+    #home h1{
+        font-size: 2.3rem !important;
+    }
+    .oneCard{
+        text-align: center !important;
+    }
+    *{
+        margin-right: 0 !important;
+    }
+    .servicesContent h2{
+        font-size: 1.6rem !important;
+    }
+    .pricing h2{
+        left: 8% !important;
+        font-size: 34px !important;
+    }
+
+    
+
+.pricing .special {
+    transform: scale(1.05) !important;
+}
+
+ }
+
+ .fa-arrow-up{
+    font-size: 2rem;
+    /* top: 0; */
+    bottom: 0;
+    position: fixed !important;
+    width: 40px;
+    z-index: 9999999;
+    right: 10;
+    color: rgba(0,0,0,0.5);
+ }
